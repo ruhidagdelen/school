@@ -1,0 +1,14 @@
+//memories
+
+//disks
+
+//caches
+
+//basic structure
+
+//ram'ler rom'lar
+
+//virtual memory
+
+//device drivers
+

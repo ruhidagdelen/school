@@ -1,0 +1,18 @@
+Narrowband: 
+Winkband:
+
+	Shannon Kapasite Formulu => C = Wlog2(1+S/N)
+		W: bant genisligi
+		C: kanal kapasitesi (kps)
+		S/N: Signal noise ratio
+
+	Gurultu: Radio bant genisliginin bir cevriminde ne kadar bps tasinabilecegini yani bank genisligi etkinligi etkinligini etkiler 
+
+	KABLOSUZ SINYAL MODULASYONU
+	Radio tasiyici dalgasina degisikliklerin girdigi surec modulasyondur.
+	Veri tasiyici dalgayla birlestirilerek radio sinyali olusturulur. Genlik frekans ve dalga fazi 
+	Sembol suresi: Dalga formunun tek bir cevrim suresi sembol suresidir. bu surede sifrelenebilen digital bitlerin sayisini gosteren spektral etkinlik modulasyon metodlarinda degisiklik gosterir. Kablosuz sistemlerdeki modulasyon teknikleri ikiye ayrilir. Single carrier ve multi carrier
+
+	SINGLE CARRIER MODULASYON TEKNIKLERI
+		temel ozellikleri butun bant genisligini tek bir bant kullaniyor. Cesitleri sunlardir:
+			1-Gaussian Minimum Shift Keying: Bir cesit surekli faz frekans oteleme anahtarlama modulasyonudur. Sembol suresinde bir bit uretir. her bir bite bir sure verilerek birlerden ve sifirlardan olusan bir bit dizisiyle baslanir. BaseBant sinyali oncelikle 0/1 sifreli bitlerin yerine -1/+1 sifreli bitler yazilarak donusturme islemi olusturulur. bu bitler daha sonra filtrelenir. Filtrelemek bir cesit sinyal tipinden baska tipe cevirme isi. frekans modulasyonu kullanilarak basebant sinyal degistirilir.

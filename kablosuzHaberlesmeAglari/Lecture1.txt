@@ -1,0 +1,81 @@
+HABERLEŞME TEKNOLOJİSİNİN TEMELLERİ
+
+İletim Hatları
+
+Ağ Bağlantısı Çeşitleri
+
+Elektromanyetik Spektrum ve Bant Genişliği
+
+Analog ve Dijital İletim
+
+Çoklama
+
+-------------------------------------------------------
+
+İLETİM HATLARI
+
+Kaynak (dijital bit katarı)-> Verici (analog sinyal)-> İletim Sistemi (analog sinyal)-> Alici (dijital bit katari)-> Hedef
+
+**haberlesmenin en gerekli iki unsuru
+		-anlasilabilirlik
+		-hata kontrolu
+
+---------------------------------------------------------
+
+DEVRELER(Circuits)
+
+-iki veya daha fazla nokta arasinda akan fiziksel yola devre denir. iki hat ve dort hat olmak uzere devreler iki ceside ayrilir.
+
+*iki hat devredeki bir elektriksel konduktor hat iletimi saglarken digeri devreyi tamamlamak donus yolu olarak kullanilir
+
+**iki hat devre en cok abone ile abonenin aga ilk katilim yaptigi kisimda kullanilir. Ozellikle bir bina icindeki yukselticilere ihtiyac duyulmayan ortamlarda iki hat devre tercih edilir.(yerel aglar)
+
+*Dort hat devrede iki cift gidis donus yolu vardir.
+//T-> transceiver //R->receiver
+
+**Dort hat devre iki cesittir lojiksel ve fiziksel, fizikselde gercekten dort hat var lojikselde ise iki hat frekans bolmesi ile dort hatmis gibi kullanilir.
+
+***dort hat devreler yukselticilerle sinyalin kuvvetlendirilmesi gereken ortamlarda yani sinyaller mesafeden dolayi zayifladiginda yukseltici tekrarlayici kullaniyorsa 4 hat devreye ihtiyac vardir.
+	/PSTN'lerdeki anahtarlari baglamalarda 
+	/dijital devrelerde 
+	/kiralik hatlarda 
+		kullanilir
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+KANAL(Channel)
+
+-Lojiksel konusma yoluna kanal denir.
+	/tek bir konusmaya tahsis edilen frekans bandi zaman slotu
+	/dalga boyu(lambda)
+	*dijital donemin temelini olusturur coklu kanal ve tasinan kapasitede fazlalik
+
+/Hat: tek bir bireyin olusturdugu normal bir cagri yukunu desteklemek icin yapilmis baglantiya hat denir. 
+/anahat:bir grup kullanicinin cagri yukunu desteklemek icin tasarlanmis devreye anahat denir.
+/anahat anahtarlama sistemlerini baglamada kullanilir.
+/anahtarlama sistemi: iki iletim hattini birbirine baglayan bir aygit(switch)
+
+//Sanal Devreler: gonderici ve alicilar arasindaki bir dizi mantiksal baglantiya sanal devre denir.
+
+)()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()(())
+
+AG BAGLANTI CESITLERI:
+
+	//anahtarli ag baglantilari: 
+		parcalar arasindaki baglantiyi kurmak icin bir dizi ag Anahtari(switch) kullanilir
+	
+	//kiralik hat baglantilari(ozel hat): 
+		ayni konumlar ve ayni cihazlar birbirine surekli bagli aygitlar arasindaki iletisim surekli ayni yol uzerinden yapiiyor. burda hizmet kiralik
+	
+	//tahsis edilmis ag baglantilari: 
+		usttekinin aynisi bunu genelde sirketler kullaniyor. burda kullaniciya ait. 
+
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*/*/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+ELEKTROMANYETIK SPEKTRUM VE BANT GENISLIGI
+
+-buyuk kurumlar ve sirketler dunya uzerinde hangi spekturmun hangi cihazda kullanilacagini falan belirliyor.
+
+	/maykil Hertz dayi belirlemis bunu ilk soyadini da birim olarak vermisler.
+
+	//* radyo kizilotesi mikrodalga gorunur isin bolgesi gunluk hayatta full kullaniliyor. fiber optigi de sayabiliriz cunku neden olmasin.

@@ -1,0 +1,21 @@
+Fudnamentals of Alghoritmic Problem Solving
+	/Alghoritm Design Technics
+
+	/Proving an Alghoritm Correctness
+		/Once an alghoritm specified, you have to prove its corectness.
+	
+	TP->True Positive
+	TN->True Negavite 
+	FP->False Positive 
+	FN->False Negative
+
+	**secenek cok fazla ise ve kesin sonuca varamiyorsaniz secgisel algoritmalari kullaniriz.
+
+	/Important problem types
+		bilgisayarin en cok yaptigi islem -> Searching, sorting
+
+		/Graph problems
+		/Konigsberg Bridges
+		/Travelling Salesman Problem
+		/Graph Colouring
+		 

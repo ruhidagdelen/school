@@ -1,0 +1,43 @@
+Federal Communications Commission
+
+Canadian RadioTelevision and Telecommunications Commussion 
+
+International Telecommunications Union (ITU)
+
+
+//Frekans: elektromanyetik dalganin saniyedeki salinim sayisi
+
+//Hertz: Frekans birimiidr bulan dayinin soyadi
+
+//Dalga boyu: Ardisik iki dalga arasindaki max ve min noktalari arasindaki mesafe
+
+//Genlik: Dalganin yuksekligini gisteren bir olcudur sinyalin kuvvetini gosterir
+
+//Faz: salinimsal giden bir seyin o andaki konumunu ifade eden ifade acisal olabilir
+
+//Bant Genisligi: bir sinyali olusturan frekanslarin mesafesi 
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+
+ÇOKLAMA - MULTIPLEXING
+
+Multiplexing in 4 dimensions 
+	space
+	time
+	frequency
+	code
+
+
+FREQUENCY MULTIPLEX
+
+	Advantages: 
+		//dinamik koordinasyon gerekli degil
+		//analog sinyallerle de calisir
+
+	Disadvantages:
+		//trafik dagilimi karisik oldugu zaman bosu bosuna bant genisligi verilmis oluyor
+		//esnek degil
+
+**bütün kanallar belirli br zamanda belirli bir spektrum kullanır.
+

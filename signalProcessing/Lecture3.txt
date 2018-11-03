@@ -1,0 +1,24 @@
+Assingment 
+	Find 'problems.pdf' on yandex 'hasdoots' solve them.
+
+
+INTERCONNECTION OF SYSTEMS
+	we can view the systems as interconnections of operations. we can represent the systems with block diagrams.
+		EXAMPLE:
+			Moving average system.
+			Consider a DT-System
+				y(n)=1/3(x[n]+x[n-1]+x[n-2])
+				Show a block diagram represantation of the systems.
+					x[n]-> H -> y[n]
+				Let the operator S^K donate the following
+					x[n]-> S^K -> x[n-1]
+				Then the several system would be
+					H=1/3[S^0+S^1+S^2]
+					 =1/3[1+S+S^2]
+			Cascade Form:
+				x[n] -> S - x[n-1] > S - x[n-2] > 
+						SUM OF ALL THREE
+							1/3
+							y(x)
+			Parallel Form:
+					Its impossible to show in here
